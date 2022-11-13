@@ -1,0 +1,5 @@
+1:El principito:editorial Berenice
+2:La Iliada:editorial Bocchi
+3:La Eneida:editorial Yuri
+4:Jicaras tristes:editorial Linkinpark
+5:Bocchi the Rock!:Time Kirara Max
