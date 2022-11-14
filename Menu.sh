@@ -13,6 +13,7 @@ respuesta=$(dialog --title "Escoge una opcion del menu:" \
                          9 "Mostrar integrantes del grupo" \
                          10 "Salir")
 case $respuesta in 
+
     1) respuesta=$(dialog --title "atareao.es"                  \
                    --separate-widget $"\n"               \
                    --form  "Introduce tus datos"         \
@@ -51,8 +52,8 @@ echo $id $idlibro $idpersona>> tbl_prestamo.txt ;;
     4) dialog --title 'persona' --textbox tbl_persona.txt 0 0 ;;
     5) dialog --title 'libro' --textbox tbl_libro.txt 0 0 ;;
     6) dialog --title 'prestamo' --textbox tbl_prestamo.txt 0 0 ;;
-    7) echo "Seleccionaste la opcion 8";;
-    8) echo "Seleccionaste la opcion 8";;
+    7) sh editarP.sh;;
+    8) sh editarL.sh;;
     9) dialog --title 'integrantes' --textbox integrantes.txt 0 0 ;;
     10) exit;;
 esac
