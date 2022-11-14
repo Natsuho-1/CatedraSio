@@ -1,4 +1,4 @@
-1:El principito:editorial Berenice
+1:El principito:editorial prueba
 2:La Iliada:editorial Bocchi
 3:La Eneida:editorial Yuri
 4:Jicaras tristes:editorial Linkinpark

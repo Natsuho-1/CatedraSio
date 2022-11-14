@@ -19,13 +19,13 @@ case $respuesta in
        read apellido
        echo $name $apellido >> tbl_persona.txt
     ;;
-    2) echo "Seleccionaste la opcion 2";;
+    2) sh nper.sh;;
     3) echo "Seleccionaste la opcion 3";;
-    4) cat tbl_persona.txt;;
-    5) cat tbl_libro.txt;;
+    4) sh vistapersonas.sh;;
+    5) sh vistalibros.sh;;
     6) cat tbl_prestamo.txt;;
-    7) echo "Seleccionaste la opcion 8";;
-    8) echo "Seleccionaste la opcion 8";;
-    9) echo "Seleccionaste la opcion 9";;
+    7) sh editarP.sh;;
+    8) sh editarL.sh;;
+    9) sh integrantes.sh;;
     10) exit;;
 esac
