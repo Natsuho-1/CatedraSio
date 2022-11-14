@@ -8,4 +8,4 @@ respuesta=$(dialog --title "Modificar Persona"                  \
 nombre=$(echo "$respuesta" | sed -n 1p)
 nombre2=$(echo "$respuesta" | sed -n 2p)
 sed -i 's/'"$nombre"'/'"$nombre2"'/g' tbl_persona.txt
-sh vistapersonas.sh
+sh Menu.sh

@@ -1,1 +1,2 @@
 id nombre editorial categoria
+1 Bocchi Kirara rock

@@ -42,8 +42,8 @@ echo $id $nombre $apellido $cantidad>> tbl_persona.txt ;;
                    --separate-widget $"\n"               \
                    --form  "Introduce tus datos"         \
                    0 0 0                                 \
-                   "Nombre:"   1 1 "$idlibro"   1 10 20 0 \
-                   "Apellido:" 2 1 "$idpersona" 2 10 20 0 \
+                   "IDlibro:"   1 1 "$idlibro"   1 10 20 0 \
+                   "IDpersona:" 2 1 "$idpersona" 2 10 20 0 \
                    3>&1 1>&2 2>&3 3>&-)
 id=$(awk 'END {print NR}' tbl_prestamo.txt)
 idlibro=$(echo "$respuesta" | sed -n 1p)
@@ -54,6 +54,6 @@ echo $id $idlibro $idpersona>> tbl_prestamo.txt ;;
     6) dialog --title 'prestamo' --textbox tbl_prestamo.txt 0 0 ;;
     7) sh editarP.sh;;
     8) sh editarL.sh;;
-    9) dialog --title 'integrantes' --textbox integrantes.txt 0 0 ;;
+    9) sh integrantes.sh;;
     10) exit;;
 esac
