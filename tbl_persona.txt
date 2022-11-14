@@ -1,7 +1,3 @@
-1:Sergio Denilson Guevara de Leon
-2:Santos Ronaldo Lemus Torres
-3:David Ernesto Mejia Hernandez
-4:Edith Beatriz Torres Hernandez
-5:Angela Beatriz Lemus Torres
-6:sergio el homo
+id nombre apellido
+1 Juan Cortez
 
